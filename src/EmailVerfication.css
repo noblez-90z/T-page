@@ -1,0 +1,38 @@
+.email {
+  background-color: #e6efef;
+  height: 99vh;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-wrapper {
+  border: 0;
+  padding: 10px;
+  width: 600px;
+  height: 450px;
+  /* margin: 70px auto; */
+  border-radius: 8px;
+  background-color: #fff;
+}
+.email-verification {
+  /* border: 1px solid black; */
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+}
+.email-verification h1 {
+  text-transform: uppercase;
+}
+.email-verification button {
+  width: 100%;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #005555;
+  color: #fff;
+  border: 0;
+  outline: none;
+  margin-top: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,147 @@
+.about {
+  /* border: 2px solid red; */
+  background-color: #e6efef;
+}
+.about-head {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 10px auto;
+  justify-content: center;
+}
+.about-head h1 {
+  z-index: 10;
+}
+.about-head img {
+  position: relative;
+  right: 65px;
+  bottom: 5px;
+  width: 100px;
+}
+.about p {
+  /* border: 1px solid black; */
+  width: 800px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.about-main {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+}
+.about-main-text {
+  width: 500px;
+  /* border: 1px solid black; */
+  padding: 10px;
+  margin-left: 10px;
+}
+.about-main img {
+  width: 500px;
+  height: 400px;
+}
+.about-section {
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-section img {
+  width: 500px;
+  height: 400px;
+}
+.about-section-text {
+  /* border: 1px solid black; */
+  width: 500px;
+  padding: 5px;
+}
+.video-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.video-wrapper img {
+  width: 400px;
+}
+.vid1 {
+  position: relative;
+}
+.vid1 p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+.vid1 h3 {
+  position: absolute;
+  top: 80px;
+  left: 130px;
+  color: #fff;
+}
+.vid1 button {
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  display: block;
+  padding: 10px;
+  border: 0;
+}
+.vid2 {
+  position: relative;
+}
+.vid2 h3 {
+  position: absolute;
+  top: 80px;
+  left: 130px;
+  color: #fff;
+}
+.vid2 button {
+  position: absolute;
+  top: 130px;
+  left: 120px;
+  display: block;
+  background-color: #055;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+}
+@media screen and (max-width: 375px) {
+  .about-wrapper {
+    overflow-x: hidden;
+  }
+  .about-head h1 {
+    font-size: 24px;
+  }
+  .about p {
+    width: 300px;
+  }
+  .about-main {
+    flex-direction: column;
+  }
+  .about-main-text {
+    width: 350px;
+    margin-left: 0;
+  }
+  .about-main img {
+    width: 350px;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+  .about-section img {
+    width: 350px;
+  }
+  .about-section-text {
+    width: 350px;
+  }
+  .video-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .video-wrapper img {
+    width: 350px;
+  }
+  .vid1 p {
+    left: 15px;
+  }
+}

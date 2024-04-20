@@ -1,0 +1,114 @@
+body {
+  background-color: #f9fffd;
+}
+.signup {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f9fffd;
+  margin-top: 10px;
+}
+/* .signup-wrapper {
+  border: 2px solid red;
+} */
+.desktop img {
+  width: 600px;
+  height: 600px;
+  /* border: 2px solid yellow; */
+}
+.signup-head {
+  display: flex;
+  justify-content: space-between;
+}
+.signup span {
+  margin-right: 5px;
+}
+.signup strong a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.signup-wrapper h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.signup-wrapper form {
+  display: block;
+}
+.signup-feild {
+  /* border: 1px solid green; */
+  margin: 10px;
+  position: relative;
+}
+.signup-feild input {
+  width: 90%;
+  height: 30px;
+  padding-left: 30px;
+  outline: none;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+}
+.signup-feild img {
+  position: relative;
+  left: 2px;
+  /* margin-top: 5px; */
+  bottom: 30px;
+  display: block;
+}
+select {
+  width: 95%;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.signup-wrapper button {
+  width: 90%;
+  padding: 8px;
+  margin-left: 10px;
+  text-transform: capitalize;
+  background-color: #005555;
+  color: #fff;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.selection img {
+  display: block;
+  position: absolute;
+  left: 180px;
+  /* border: 1px solid red; */
+}
+@media screen and (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+  .desktop img {
+    display: none;
+  }
+  .signup-wrapper {
+    width: 350px;
+  }
+  .signup-wrapper form {
+    width: 300px;
+  }
+  .signup-feild {
+    width: 100%;
+    margin-left: 0;
+  }
+  .signup-feild input {
+    width: 85%;
+  }
+  .signup-wrapper button {
+    width: 100%;
+    margin-left: 3px;
+  }
+  .selection img {
+    left: 40px;
+    width: 80%;
+  }
+  .Shead-side {
+    position: absolute;
+    bottom: 80px;
+    margin-left: 25px;
+  }
+}
